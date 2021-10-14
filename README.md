@@ -15,7 +15,7 @@ python -m telegram_voice
 ```
 
 
-# your auth keys is a json format: didn't write a try block for this. Don't forget the comma or " ".
+### your auth keys is a json format: didn't write a try block for this. Don't forget the comma or " ".
 
 
 ```json
