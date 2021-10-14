@@ -1,9 +1,9 @@
 # Telethon streaming.
 
-### This project is meant to be used with [Telegram-Paperplane](https://github.com/RaphielGang/Telegram-Paperplane) 
+#### This project is meant to be used with [Telegram-Paperplane](https://github.com/RaphielGang/Telegram-Paperplane)
 
 
-### This project uses the @dev branch of [Using pytgcalls](https://pytgcalls.github.io)
+#### This project uses the @dev branch of [using pytgcalls](https://pytgcalls.github.io)
 
 
 ```python
