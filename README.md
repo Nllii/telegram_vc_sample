@@ -13,8 +13,26 @@ cd into telegram_vc_sample
 python -m telegram_voice
 
 ```
-TODO
 
-[ ] Add kaggle and google colab script to the dev_install script.
+
+# your auth keys is a json format: didn't write a try block for this. Don't forget the comma or " ".
+
+
+```json
+
+{
+    "API_KEY": "",
+    "API_HASH": "",
+    "STRING_SESSION": "",
+    "PHONE":"",
+    "CLOUD_MODE":"True"
+
+}
+
+
+```
+TODO
+[ ] Add firebase storage script.
+[ ] Add kaggle and google colab script to the dev_install script for cloud_mode
 
 
