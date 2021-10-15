@@ -15,7 +15,7 @@ python -m telegram_voice
 ```
 
 
-#####  auth keys is a json format: 
+######  auth keys is a json format: 
 
 ```json
 
