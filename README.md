@@ -24,11 +24,14 @@ python -m telegram_voice
 {
     "API_KEY": "",
     "API_HASH": "",
-    "STRING_SESSION": "",
+    "CHAT_ID":"",
+    "STRING_SESSION":"",
     "PHONE":"",
-    "CLOUD_MODE":"True"
+    "CLOUD_MODE":""
 
 }
+
+
 
 
 ```

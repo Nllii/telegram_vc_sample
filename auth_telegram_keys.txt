@@ -1,9 +1,9 @@
 {
-    "API_KEY": "",
-    "API_HASH": "",
-    "STRING_SESSION": "",
-    "PHONE":"",
-    "CLOUD_MODE":""
+    "API_KEY": "8607483",
+    "API_HASH": "8b7d6f2d9131e7f8bc9be8c26772664d",
+    "STRING_SESSION": "1AZWarzMBu04Mz5qSY_SkwTibJ6TMLFgkOgt2hPpmVDhpqzBIm-a07swYCTPfLaQUQQt1WfTMr6BDfVCColIKu8wfRopoL_PNKIwsyw9hx83GbsSf0NgVYN1rbc-xGtYPylzg611btSImy7kK6eSU0w_bhMGVr5B1k2DKm2GgelrIVUt4L1xAvaBe1aaY05TUnHIrqAWWLEEdArBxBSabM5bj8mCRckb87c5tus0qUwz_6kj9AFnAuMlbeDiWiEEnoD0SHvlU20qTOrdVa9Wlxh98F6xBZf8O376Z0toIqNdL2WS1ZNOpmIakCs6MhBoErZufgWUNsKwzKmTUSbxP62w5Rt9tMaY=",
+    "PHONE":"+18324382144",
+    "CLOUD_MODE":"True",
+    "CHAT_ID":"-1001637287824"
 
 }
-
