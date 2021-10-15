@@ -1,13 +1,11 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/telegram_vc_sample/pytgcalls/
+/telegram_vc_sample/pytgcalls
 # /node_modules
 # /.pnp
 # .pnp.js
-.auth_telegram.txt
-./telegram_vc_sample/keys.py
-
+auth_telegram.txt
 # testing
 # /coverage
 
