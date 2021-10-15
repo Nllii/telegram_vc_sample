@@ -15,7 +15,8 @@ python -m telegram_voice
 ```
 
 
-### your auth keys is a json format: didn't write a try block for this. Don't forget the comma or " ".
+#####  your auth keys is a json format: didn't write a try block for this. Don't forget the comma ," ",:
+
 
 
 ```json
@@ -32,7 +33,9 @@ python -m telegram_voice
 
 ```
 TODO
+
 [ ] Add firebase storage script.
+
 [ ] Add kaggle and google colab script to the dev_install script for cloud_mode
 
 

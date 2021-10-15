@@ -27,13 +27,6 @@ STRING_SESSION = telegram_keys['STRING_SESSION']
 
 
 
-
-
-
-
-
-
-
 is_linux = sys.platform.startswith('linux')
 def get_node_installed():
     node =" yes |sudo apt install nodejs"
