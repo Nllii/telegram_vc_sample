@@ -5,7 +5,7 @@
 
 #### This project uses the @dev branch of [using pytgcalls](https://pytgcalls.github.io)
 
-# Hosting??? use your phone or cloud notebooks such as kaggle or google colab. 
+#### Hosting use your phone and install  code-server or cloud notebooks such as kaggle or google colab.
 
 1. !git clone https://github.com/Nllii/telegram_vc_sample.git
 2. !curl -fsSL https://code-server.dev/install.sh | sh
