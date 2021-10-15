@@ -34,12 +34,12 @@ python -m telegram_voice
 
 
 ```
-TODO
+<!-- TODO
 
-[ ] Create a branch to work on youtube inline bot
+- Create a branch to work on youtube inline bot
 
-[ ] Add firebase storage script
+- Add firebase storage script
 
-[ ] Add kaggle and google colab script to the dev_install script for cloud_mode
+- Add kaggle and google colab script to the dev_install script for cloud_mode
 
-
+ -->
