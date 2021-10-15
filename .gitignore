@@ -6,7 +6,8 @@ telegram_vc_sample/pytgcalls
 # /.pnp
 # .pnp.js
 .auth_telegram.txt
-keys.py
+./telegram_vc_sample/keys.py
+
 # testing
 # /coverage
 
