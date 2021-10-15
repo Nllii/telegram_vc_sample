@@ -15,10 +15,7 @@ python -m telegram_voice
 ```
 
 
-#####  your auth keys is a json format: didn't write a try block for this. Don't forget the comma ," ",:
-#### known issues: Any reply and response sometimes will randomly appear in different groups: 
-##### solution: create a new account just for streaming or write a bot! 
-
+#####  auth keys is a json format: 
 
 ```json
 

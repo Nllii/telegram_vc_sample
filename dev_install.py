@@ -1,6 +1,8 @@
 # use this to update the pytgcalls 
 # due to the project in beta... we have to install it from differnet source and setup
 # this file also has your telegram_vc_sample auth keys.
+
+
 import os 
 import sys
 import shutil
@@ -15,16 +17,22 @@ import tempfile
 import json
 
 my_project_path = os.path.abspath(os.path.dirname(__file__))
-print("Extension",my_project_path)
+print("project extension base: ",my_project_path)
+
+try:
+    telegram_key = open('../telegram_vc_sample/auth_telegram.txt', 'r')
+    telegram_keys = json.load(telegram_key)
+    API_KEY = telegram_keys['API_KEY']
+    API_HASH = telegram_keys['API_HASH']
+    STRING_SESSION = telegram_keys['STRING_SESSION']
+    CHAT_ID = telegram_keys['CHAT_ID']
+except Exception as e:
+    print("check your keys")
+    exit()
+# add google firebase  the project
 
 
-telegram_key = open('../telegram_vc_sample/auth_telegram.txt', 'r')
-telegram_keys = json.load(telegram_key)
-API_KEY = telegram_keys['API_KEY']
-API_HASH = telegram_keys['API_HASH']
-STRING_SESSION = telegram_keys['STRING_SESSION']
-CHAT_ID = telegram_keys['CHAT_ID']
-print(CHAT_ID)
+
 
 
 
@@ -78,6 +86,8 @@ def is_installed():
         print("DONE")
     move_temp_to_main_dir = shutil.move(temp_dir+"/pytgcalls", main_dir)
     print("DONE MOVING STUFF AROUND")
+
+
 
 
 
