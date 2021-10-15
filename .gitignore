@@ -2,6 +2,7 @@
 
 # dependencies
 pytgcalls
+__pycache__
 # .gitignore
 keys.py
 # /node_modules
