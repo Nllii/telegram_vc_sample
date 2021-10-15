@@ -16,7 +16,8 @@ python -m telegram_voice
 
 
 #####  your auth keys is a json format: didn't write a try block for this. Don't forget the comma ," ",:
-
+#### known issues: Any reply and response sometimes will randomly appear in different groups: 
+##### solution: create a new account just for streaming or write a bot! 
 
 
 ```json
@@ -27,7 +28,8 @@ python -m telegram_voice
     "CHAT_ID":"",
     "STRING_SESSION":"",
     "PHONE":"",
-    "CLOUD_MODE":""
+    "CLOUD_MODE":"",
+    "BOT_TOKEN":""
 
 }
 
@@ -36,6 +38,7 @@ python -m telegram_voice
 
 ```
 TODO
+[ ] Create a branch to work on youtube inline bot:
 
 [ ] Add firebase storage script.
 

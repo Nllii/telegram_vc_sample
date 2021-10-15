@@ -26,6 +26,9 @@ except PhoneNumberInvalidError:
     print(INVALID_PH)
     sys.exit(1)
 
+
+
+
 for module_name in ALL_MODULES:
     imported_module = import_module("telegram_voice.digital_content." + module_name)
 

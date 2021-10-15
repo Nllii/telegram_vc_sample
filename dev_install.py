@@ -23,6 +23,8 @@ telegram_keys = json.load(telegram_key)
 API_KEY = telegram_keys['API_KEY']
 API_HASH = telegram_keys['API_HASH']
 STRING_SESSION = telegram_keys['STRING_SESSION']
+CHAT_ID = telegram_keys['CHAT_ID']
+print(CHAT_ID)
 
 
 
