@@ -13,7 +13,7 @@ cd into telegram_vc_sample
 python -m telegram_voice
 
 ```
-git_
+git
 
 
 ### your auth keys is a json format: didn't write a try block for this. Don't forget the comma or " ".
