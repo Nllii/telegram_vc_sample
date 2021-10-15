@@ -10,10 +10,7 @@ import os
 import sys
 
 from telethon.errors.rpcerrorlist import PhoneNumberInvalidError
-
-# from telegram_voice import LOGS, voice_chat_session,auth_session
 from telegram_voice import LOGS,auth_session
-
 from telegram_voice.digital_content import ALL_MODULES
 
 INVALID_PH = (

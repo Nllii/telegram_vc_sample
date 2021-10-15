@@ -1,5 +1,6 @@
 # use this to update the pytgcalls 
 # due to the project in beta... we have to install it from differnet source and setup
+# this file also has your telegram_vc_sample auth keys.
 import os 
 import sys
 import shutil
@@ -11,9 +12,27 @@ from setuptools import setup
 from setuptools.command.build_ext import build_ext
 import glob
 import tempfile
+import json
 
 my_project_path = os.path.abspath(os.path.dirname(__file__))
 print("Extension",my_project_path)
+
+
+telegram_key = open('../telegram_vc_sample/auth_telegram.txt', 'r')
+telegram_keys = json.load(telegram_key)
+API_KEY = telegram_keys['API_KEY']
+API_HASH = telegram_keys['API_HASH']
+STRING_SESSION = telegram_keys['STRING_SESSION']
+
+
+
+
+
+
+
+
+
+
 
 is_linux = sys.platform.startswith('linux')
 def get_node_installed():
