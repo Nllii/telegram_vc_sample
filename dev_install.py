@@ -37,21 +37,6 @@ except Exception as e:
 
 
 
-is_linux = sys.platform.startswith('linux')
-def get_node_installed():
-    node =" yes |sudo apt install nodejs"
-    npm =" yes |sudo apt install npm"
-    install_node = subprocess.run(node, shell=True)
-    install_npm = subprocess.run(npm, shell=True)
-
-print("is_linux is -------------------------------->",is_linux)
-if is_linux is True:
-    get_node_installed()
-else:
-    print("not a linux system")
-    
-
-
 def looking_for_pytgcalls():
     all_folder ="../telegram_vc_sample"
     look_for_fodler = [ f.path for f in os.scandir(all_folder) if f.is_dir() ]
@@ -84,11 +69,50 @@ def is_installed():
         move_folder = shutil.move(file, temp_dir)
         shutil.rmtree(main_dir+"/pytgcalls")
         print("DONE")
-    move_temp_to_main_dir = shutil.move(temp_dir+"/pytgcalls", main_dir)
+    try:
+        move_temp_to_main_dir = shutil.move(temp_dir+"/pytgcalls", main_dir)
+    except Exception as e:
+        print("already exists")
+
+    aiohttp  = "pip install aiohttp"
+    psutil  = "pip install psutil"
+    subprocess.run(aiohttp, shell=True)
+    subprocess.run(psutil, shell=True)
+
     print("DONE MOVING STUFF AROUND")
 
+"curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -"
+"sudo apt-get install -y nodejs"
 
 
 
+
+is_linux = sys.platform.startswith('linux')
+def get_node_installed():
+    node =" yes | curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -"
+    npm =" yes |sudo apt-get install -y nodejs"
+    npm_i  = "npm i -g n"
+    n_latest = "n latest"
+    youtube_dl = "pip install youtube_dl"
+    FFmpeg_ = "yes |sudo apt install ffmpeg"
+    install_node = subprocess.run(node, shell=True)
+    install_npm = subprocess.run(npm, shell=True)
+    npm_insatll = subprocess.run(npm_i, shell=True)
+    n_latest_install = subprocess.run(n_latest, shell=True)
+    install_youtube = subprocess.run(youtube_dl, shell=True)
+    FFmpeg_install = subprocess.run(FFmpeg_, shell=True)
+    # n_latest = ubprocess.run(n_latest, shell=True)
+
+    
+print("is_linux is -------------------------------->",is_linux)
+if is_linux is True:
+    get_node_installed()
+    install_pytgcalls()
+    is_installed()
+
+
+else:
+    print("not a linux system")
+    
 
 # git clone -b dev https://github.com/pytgcalls/pytgcalls && cd pytgcalls && python setup.py install

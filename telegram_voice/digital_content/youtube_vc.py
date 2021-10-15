@@ -1,6 +1,4 @@
 import asyncio
-
-from pyrogram import Client
 import tracemalloc
 from pytgcalls import idle
 from pytgcalls import PyTgCalls

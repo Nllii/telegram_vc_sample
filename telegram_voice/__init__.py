@@ -8,7 +8,12 @@ from sys import version_info
 from telethon import TelegramClient
 from telethon.sessions import StringSession
 from dev_install import install_pytgcalls,looking_for_pytgcalls,is_installed
-from pytgcalls import PyTgCalls
+
+try:
+    from pytgcalls import PyTgCalls
+except Exception as e:
+    print(e)
+    pass
 from typing import Optional
 from dev_install import STRING_SESSION,API_KEY,API_HASH
 
@@ -40,7 +45,11 @@ else:
 
 LOGS.info( "Human Mode Enabled")
 auth_session = TelegramClient(StringSession(STRING_SESSION), API_KEY, API_HASH)
-voice_chat_session = PyTgCalls(auth_session)
+try:
+    voice_chat_session = PyTgCalls(auth_session)
+except Exception as e:
+    print("rerun the script until this error goes away")
+    pass
 # print(voice_chat_session.get_active_call(CHAT_ID))
 
 LOGS.info( "Bot Mode Enabled")
